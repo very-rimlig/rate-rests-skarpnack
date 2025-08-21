@@ -1,4 +1,14 @@
 const restaurants = [
+          {
+    name: "Konditori Santa Fé",
+    rating: 4.4,
+    votes: 377,
+    source: "Google",
+    price: "1-100 kr",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/df/ba/45/bild-pa-fikan-och-teerna.jpg?w=1100&h=600&s=1",
+    link: "https://maps.app.goo.gl/kfJesB4T5uE4uD3QA",
+    place: "Kärrtorp",
+  },
     {
     name: "Torpet i Orhem",
     rating: 4.4,
@@ -223,4 +233,5 @@ function sortBy(key) {
 }
 
 // Render första gången
+
 renderList();
