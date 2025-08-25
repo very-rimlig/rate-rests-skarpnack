@@ -1,4 +1,14 @@
 const restaurants = [
+   {
+     name: "Karl o Kristinas Wärdshus",
+    rating: 4.3,
+             votes: 433,
+             source: "Google",
+    price: "100-200 kr",
+    image: "https://media-cdn.tripadvisor.com/media/photo-s/06/36/38/70/karl-o-kristinas.jpg",
+    link: "https://maps.app.goo.gl/S8P52naZy8PQoU7UA",
+             place: "Skarpnäck",
+  }, 
           {
     name: "Konditori Santa Fé",
     rating: 4.4,
@@ -235,3 +245,4 @@ function sortBy(key) {
 // Render första gången
 
 renderList();
+
