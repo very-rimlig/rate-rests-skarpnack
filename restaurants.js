@@ -1,4 +1,14 @@
 const restaurants = [
+             {
+    name: "Kärrtorps krog",
+    rating: 3.5,
+    votes: 88,
+    source: "Google",
+    price: "100-200 kr",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/df/ba/45/bild-pa-fikan-och-teerna.jpg?w=1100&h=600&s=1",
+    link: "https://maps.app.goo.gl/Jj8zyA6RMWdS1D9U8",
+    place: "Kärrtorp",
+  },
    {
      name: "Karl o Kristinas Wärdshus",
     rating: 4.3,
@@ -245,4 +255,5 @@ function sortBy(key) {
 // Render första gången
 
 renderList();
+
 
